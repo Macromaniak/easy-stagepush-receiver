@@ -3,7 +3,12 @@
 Plugin Name: Easy StagePush Receiver
 Description: Sync posts with ACF fields and media from a dev environment via REST.
 Version: 1.0
-Author: Phases
+Requires at least: 6.3
+Requires PHP: 7.2.24
+Author: Anandhu Nadesh
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: easy-stagepush-receiver
 */
 
 add_action('rest_api_init', function () {
