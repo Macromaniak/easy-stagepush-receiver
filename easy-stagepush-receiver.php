@@ -10,6 +10,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: easy-stagepush-receiver
 */
+if (!defined('ABSPATH')) exit;
 
 add_action('rest_api_init', function () {
     register_rest_route('esps-sync/v1', '/import-post', [
